@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Login from "./Login"
 function Signup() {
   return (
     <>
@@ -38,12 +39,15 @@ function Signup() {
             {/* button */}
             <div className="flex justify-around mt-4">
               <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">Singup</button>
-              <p>HAve account?{" "}
-                <Link to="/" className="underline text-blue-500 cursor-pointer">
-
+              <p className="text-xl">Have account?{" "}
+                <button  className="underline text-blue-500 cursor-pointer"
+                onClick={()=>
+                  document.getElementById("my_modal_3").showModal()
+                }>
                   Login
-
-                </Link> </p>
+                </button>{" "} 
+                <Login/>
+                </p>
             </div>
           </div>
         </div>
