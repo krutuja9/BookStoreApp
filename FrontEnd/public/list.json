@@ -1,0 +1,98 @@
+[
+  {
+    "id":0,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":1,
+    "name":"Comedy Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":2,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":3,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":4,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":5,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":50,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":6,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":100,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":7,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":0,
+    "category":"BookFree",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":8,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":9,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":10,
+    "name":"Food Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":200,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  },
+  {
+    "id":11,
+    "name":"Story Book",
+    "title":"Lorem, ipsum dolor sit ame ",
+    "price":0,
+    "category":"Free",
+    "image":"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?semt=sph"
+  }
+]
