@@ -1,13 +1,23 @@
 import { Link } from "react-router-dom"
+import { useForm } from "react-hook-form"
 
 function Login() {
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (data) =>console.log(data);
+
   return (
     <div>
       {/* You can open the modal using document.getElementById('ID').showModal() method */}
 
       <dialog id="my_modal_3" className="modal">
         <div className="modal-box">
-          <form method="dialog">
+          <form onSubmit={handleSubmit(onSubmit)}  method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <Link to="/" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
           </form>
@@ -18,7 +28,9 @@ function Login() {
             <input type="email"
               placeholder="Enter Your Email"
               className="w-80 px-3 py-1 border rounded-md outline-none "
-            />
+              {...register("email", { required: true })} 
+            /> <br />
+            {errors.email && (<span className="text-sm text-red-500">This field is required</span>)}
           </div>
           {/* password */}
           <div className="mt-4 space-y-2">
@@ -26,7 +38,9 @@ function Login() {
             <input type="text"
               placeholder="Enter Your Password"
               className="w-80 px-3 py-1 border rounded-md outline-none "
-            />
+              {...register("password", { required: true })} 
+            /> <br />
+            {errors.password && (<span className="text-sm text-red-500">This field is required</span>)}
           </div>
           {/* button */}
           <div className="flex justify-around mt-4">
