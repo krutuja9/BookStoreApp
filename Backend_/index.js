@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import cors from "cors";
 import bookRouter from './route/bookRoute.js';
+import userRoute from "./route/userRoute.js"
 
 dotenv.config();
 
@@ -34,6 +35,7 @@ mongoose.connect(url, {
 
 // Defining routes
 app.use('/book', bookRouter);
+app.use("/user",userRoute)
 
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
